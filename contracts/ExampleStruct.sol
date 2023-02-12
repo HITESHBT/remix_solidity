@@ -1,0 +1,32 @@
+//SPDX-License-Identifier: MIT
+pragma solidity 0.8.14;
+contract wallet
+{
+    PaymentReceived public payment;
+
+    address sender;
+    uint value;
+    function payContract() public payable{
+        payment=new PaymentReceived(msg.sender, msg.value);
+    }
+}
+contract PaymentReceived
+{
+    address public from;
+    uint public amount;
+    constructor(address _from,uint _amount){
+        from=_from;
+        amount=_amount;
+    }
+}
+contract wallet2
+{
+    struct paymentReceivedStruct{
+        address from;
+        uint value;
+    }
+    paymentReceivedStruct public payment;
+    function payContract() public payable{
+        payment =paymentReceivedStruct(msg.sender,msg.value);
+    }
+}

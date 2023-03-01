@@ -124,7 +124,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleMapping.sol": "ExampleMapping"
+			"contracts/13_ExampleMapping.sol": "ExampleMapping"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -138,7 +138,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleMapping.sol": {
+		"contracts/13_ExampleMapping.sol": {
 			"keccak256": "0xb5085a4632e2a994312e60caa3246c8b55b1d19bd63646c5ac74dbca27a96a5e",
 			"license": "MIT",
 			"urls": [

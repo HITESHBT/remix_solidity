@@ -14,3 +14,4 @@ contract MyContract{
     }
 
 }
+//web3.utils.sh3("updateOurString(string)") : gives the keccak hash of the first 8 digits and provides with the function signature.

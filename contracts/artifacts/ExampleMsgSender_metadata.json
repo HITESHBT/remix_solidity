@@ -7,26 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "myBool",
+				"name": "someAddress",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "address",
 						"name": "",
-						"type": "bool"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "bool",
-						"name": "_myBool",
-						"type": "bool"
-					}
-				],
-				"name": "setMyBool",
+				"inputs": [],
+				"name": "updateSomeAddress",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/4_ExampleBoolean.sol": "ExampleBoolean"
+			"contracts/9_ExampleMsgSender.sol": "ExampleMsgSender"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/4_ExampleBoolean.sol": {
-			"keccak256": "0x128eea8a3ed4fd837c8600f26eb890f39c4ac8ac5a7853bfa4e39d26cec7a90a",
+		"contracts/9_ExampleMsgSender.sol": {
+			"keccak256": "0x370ccc01a6f533d32bcae1bf11424baf155a0d95afefa4951230dfc9d46332e6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fc4c52eaf898efbe621f538ff69cdf0350f639b7324e0539a3848f9843b21362",
-				"dweb:/ipfs/QmPo24YXyskwBBgB3jecR557VYwJbnXCyLoRM4uGJf5bxh"
+				"bzz-raw://0fdfa8d018f7fe02dde2dda615d22bcbd1eaf1996b6858d1f8e557caeb7ca241",
+				"dweb:/ipfs/QmdfsWQ3Hrp12Jyv8hgUut9Byyxyi7FXGnxS5TReFY9MTX"
 			]
 		}
 	},

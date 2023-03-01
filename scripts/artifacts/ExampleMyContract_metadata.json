@@ -1,18 +1,18 @@
 {
 	"compiler": {
-		"version": "0.8.14+commit.80d49f37"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "myBool",
+				"name": "myUint",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -21,12 +21,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "bool",
-						"name": "_myBool",
-						"type": "bool"
+						"internalType": "uint256",
+						"name": "_newUint",
+						"type": "uint256"
 					}
 				],
-				"name": "setMyBool",
+				"name": "setMyUint",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/4_ExampleBoolean.sol": "ExampleBoolean"
+			"scripts/ExampleMyContract.sol": "ExampleMyContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/4_ExampleBoolean.sol": {
-			"keccak256": "0x128eea8a3ed4fd837c8600f26eb890f39c4ac8ac5a7853bfa4e39d26cec7a90a",
+		"scripts/ExampleMyContract.sol": {
+			"keccak256": "0x7d9609579725caea64a2d55d770b8b41169fe229d4945f9151f8a3034263a9f5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fc4c52eaf898efbe621f538ff69cdf0350f639b7324e0539a3848f9843b21362",
-				"dweb:/ipfs/QmPo24YXyskwBBgB3jecR557VYwJbnXCyLoRM4uGJf5bxh"
+				"bzz-raw://56e71ec8cd1b0823092b8a39250c142a83fdd821bd2f2c4c88d1f4ce73527fb8",
+				"dweb:/ipfs/QmQdhZBChDxBTY2UYGUN4AxWLcmirkP2M4qj8NfTcTggdR"
 			]
 		}
 	},

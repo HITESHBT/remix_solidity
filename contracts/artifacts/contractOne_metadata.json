@@ -1,34 +1,34 @@
 {
 	"compiler": {
-		"version": "0.8.14+commit.80d49f37"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "myBool",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addressBalances",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "bool",
-						"name": "_myBool",
-						"type": "bool"
-					}
-				],
-				"name": "setMyBool",
+				"inputs": [],
+				"name": "deposit",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/4_ExampleBoolean.sol": "ExampleBoolean"
+			"contracts/20_ExampeContractCall.sol": "contractOne"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/4_ExampleBoolean.sol": {
-			"keccak256": "0x128eea8a3ed4fd837c8600f26eb890f39c4ac8ac5a7853bfa4e39d26cec7a90a",
+		"contracts/20_ExampeContractCall.sol": {
+			"keccak256": "0x8aea68846b8aed9f5c8167ba89262351baaf0c74b18a265e5ff51101b3e20533",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fc4c52eaf898efbe621f538ff69cdf0350f639b7324e0539a3848f9843b21362",
-				"dweb:/ipfs/QmPo24YXyskwBBgB3jecR557VYwJbnXCyLoRM4uGJf5bxh"
+				"bzz-raw://c32bf602214637c2166e63f997e7fad33622bbd96cd65c6af62bf4430b4582f9",
+				"dweb:/ipfs/QmaJEZuHSPfz8n9kshcXTTmvkp2NMLcCyBmLyzu1bKnyqf"
 			]
 		}
 	},

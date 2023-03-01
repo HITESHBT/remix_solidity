@@ -7,28 +7,22 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "myBool",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
+				"name": "payContract",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "payment",
+				"outputs": [
 					{
-						"internalType": "bool",
-						"name": "_myBool",
-						"type": "bool"
+						"internalType": "contract PaymentReceived",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "setMyBool",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -45,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/4_ExampleBoolean.sol": "ExampleBoolean"
+			"contracts/15_ExampleStruct.sol": "wallet"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/4_ExampleBoolean.sol": {
-			"keccak256": "0x128eea8a3ed4fd837c8600f26eb890f39c4ac8ac5a7853bfa4e39d26cec7a90a",
+		"contracts/15_ExampleStruct.sol": {
+			"keccak256": "0xf0bea52c9e359112ba8f51739d64611b6cffa970b92a3c0bb69c9956ba9e43b9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fc4c52eaf898efbe621f538ff69cdf0350f639b7324e0539a3848f9843b21362",
-				"dweb:/ipfs/QmPo24YXyskwBBgB3jecR557VYwJbnXCyLoRM4uGJf5bxh"
+				"bzz-raw://e557884beaa68f45a764ffb772fdff5c14ff60114a79ed3190a5ed2033a75f6a",
+				"dweb:/ipfs/QmUysfPdLA2zj8zy3ABh4iT6McDYi5NhjS9MWB6zptKrXT"
 			]
 		}
 	},
